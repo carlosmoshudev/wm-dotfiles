@@ -1,13 +1,22 @@
-<div>
-    <h1>My dotfiles for awesome on ubuntu</h1>
-    <ul>
-        <li>OS: Ubuntu 22.04</li>
-        <li>WM: Awesome</li>
-        <li>Terminal: kitty</li>
-        <li>Shell: zsh</li>
-        <li>Editor: vscode</li>
-        <li>Browser: Firefox</li>
-        <li>File Manager: Thunar</li>
-        <li>Appliction Launcher: Rofi</li>
-    </ul>
-</div>
+# My dotfiles for awesome on ubuntu</h1>
+
+- **WM:** Awesome
+- **OS:** Ubuntu 22.04
+- **Terminal:** kitty
+- **Shell:** zsh
+- **Editor:** vscode
+- **Browser:** Firefox
+- **File Manager:** Thunar
+- **APP Launcher:** Rofi
+- **Development Environment:** Node.JS
+
+> if you start on a new Ubuntu installation
+
+## Setup
+
+### Installing the dependencies
+
+```sh
+>   sudo apt-get install awesome kitty rofi zsh node
+    sudo snap install code lsd
+```
