@@ -21,9 +21,12 @@
 
 ### Swap your default shell to zsh
 
-[Element: details]
-[Element: summary]
-[Element: b]If you want to configure also for root account</b></summary>
+<details>
+    <summary>
+        <b>
+        If you want to configure also for root account
+        </b>
+    </summary>
 
 ```sh
 >   sudo chsh -s /bin/zsh %your-user%
