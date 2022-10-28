@@ -21,4 +21,11 @@
     sudo snap install code lsd
 ```
 
+### Swap your default shell to zsh
+
+```sh
+>   sudo chsh -s /bin/zsh %your-user%
+    sudo chsh -s /bin/zsh root
+```
+
 > To be continued ^^
