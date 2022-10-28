@@ -24,6 +24,21 @@
 <details>
     <summary>
         <b>
+        Configure for your local user
+        </b>
+    </summary>
+
+```sh
+>   sudo chsh -s /bin/zsh %your-user%
+```
+
+Then copy the content of the file [.zshrc](https://github.com/carlosmoshudev/wm-dotfiles/blob/main/.zshrc) to your user ~/.zshrc
+
+</details>
+
+<details>
+    <summary>
+        <b>
         Configure also for root account
         </b>
     </summary>
@@ -40,18 +55,5 @@ Then copy the content of the file [.zshrc](https://github.com/carlosmoshudev/wm-
 ```
 
 </details>
-<details>
-    <summary>
-        <b>
-        Configure for your local user
-        </b>
-    </summary>
 
-```sh
->   sudo chsh -s /bin/zsh %your-user%
-```
-
-Then copy the content of the file [.zshrc](https://github.com/carlosmoshudev/wm-dotfiles/blob/main/.zshrc) to your user ~/.zshrc
-
-</details>
 > To be continued ^^
