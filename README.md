@@ -1,4 +1,6 @@
-# My dotfiles for awesome on ubuntu</h1>
+# My dotfiles for AwesomeWM on Ubuntu</h1>
+
+### Some info about this environment
 
 - **WM:** Awesome
 - **OS:** Ubuntu 22.04
@@ -12,8 +14,6 @@
 
 ## Setup
 
-> if you start on a new Ubuntu installation
-
 ### Installing the dependencies
 
 ```sh
@@ -23,17 +23,24 @@
 
 ### Swap your default shell to zsh
 
-> You can configure only for local user, then ignore the lines including "root"
+> If you want to configure on root account
 
 ```sh
 >   sudo chsh -s /bin/zsh %your-user%
     sudo chsh -s /bin/zsh root
 ```
 
-Then copy the content of the file .zshrc to your user ~/.zshrc
+Then copy the content of the file .zshrc to your user ~/.zshrc and link to root
 
 ```sh
->   sudo ln -s ~/.zshrc /root/.zshrc 
+>   sudo ln -s ~/.zshrc /root/.zshrc
 ```
 
+> If you want to configure only on local user
+
+```sh
+>   sudo chsh -s /bin/zsh %your-user%
+```
+
+Then copy the content of the file .zshrc to your user ~/.zshrc
 > To be continued ^^
