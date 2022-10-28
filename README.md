@@ -23,9 +23,17 @@
 
 ### Swap your default shell to zsh
 
+> You can configure only for local user, then ignore the lines including "root"
+
 ```sh
 >   sudo chsh -s /bin/zsh %your-user%
     sudo chsh -s /bin/zsh root
+```
+
+Then copy the content of the file .zshrc to your user ~/.zshrc
+
+```sh
+>   sudo ln -s ~/.zshrc /root/.zshrc 
 ```
 
 > To be continued ^^
