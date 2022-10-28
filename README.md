@@ -16,7 +16,8 @@
 
 ```sh
 >   sudo apt-get install awesome kitty neofetch node rofi zsh  
-    sudo snap install code lsd
+    sudo snap install code
+    sudo snap install lsd --devmode
 ```
 
 ### Swap your default shell to zsh
