@@ -17,7 +17,7 @@
 ### Installing the dependencies
 
 ```sh
-$   sudo apt-get install awesome kitty rofi zsh node
+>   sudo apt-get install awesome kitty rofi zsh node
     sudo snap install code lsd
 ```
 
