@@ -10,13 +10,15 @@
 - **APP Launcher:** Rofi
 - **Development Environment:** Node.JS
 
-> if you start on a new Ubuntu installation
-
 ## Setup
+
+> if you start on a new Ubuntu installation
 
 ### Installing the dependencies
 
 ```sh
->   sudo apt-get install awesome kitty rofi zsh node
+$   sudo apt-get install awesome kitty rofi zsh node
     sudo snap install code lsd
 ```
+
+> To be continued ^^
