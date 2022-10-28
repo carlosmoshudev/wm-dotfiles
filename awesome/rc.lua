@@ -1,7 +1,6 @@
 -- Path: /etc/xdg/awesome/rc.lua
 
 pcall(require, "luarocks.loader")
-
 local gears = require("gears")
 local awful = require("awful")
 require("awful.autofocus")
@@ -33,6 +32,8 @@ do
         in_error = false
     end)
 end
+
+--require("configuration") --- Keep commented until is finished
 
 -- Theme
 beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
